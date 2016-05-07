@@ -17,7 +17,7 @@ email = driver.find_element_by_xpath("//*[@class='text-input email-input js-sign
 email.send_keys('Enter your email address here')
 print("Email Id entered...")
 password = driver.find_element_by_xpath("//*[@name='session[password]']")
-password.send_keys('Enter your password here')
+password.send_keys('Enter your password is here')
 print("Password entered...")
 button = driver.find_element_by_xpath("//*[@class='submit btn primary-btn js-submit']")
 button.click()
